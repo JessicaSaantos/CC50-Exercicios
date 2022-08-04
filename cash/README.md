@@ -1,7 +1,7 @@
 # Cash
 ## Objetivo:
 <p>
-	*Exercício Operação de Caixa:* Objetivo capturar a informação da quantia de troco e retornar o número mínimo de moedas que será necessária para a operação, usando algoritmos ambiciosos, também conhecidos como gulosos ou gananciosos. 
+	<strong>Exercício Operação de Caixa:</strong> Objetivo capturar a informação da quantia de troco e retornar o número mínimo de moedas que será necessária para a operação, usando algoritmos ambiciosos, também conhecidos como gulosos ou gananciosos. 
 </p>
 
 ### Algoritmos Ambiciosos:
