@@ -1,5 +1,5 @@
-#Legibilidade
-##Objetivo:
+# Legibilidade
+## Objetivo:
 
 Programa com objetivo de calcular o nível (representado a partir de uma série, como na escola) aproximado necessário para compreender algum texto, conforme a seguir, assim readability que pega um texto e determina seu nível de leitura.
 
