@@ -1,6 +1,6 @@
 # Plurality
 
-** Objetivo: ** Programa que executa uma eleição de pluralidade, conforme a seguir. Chamando o arquivo e digitando o nome dos candidatos, logo em seguida digitando o número de eleitores, assim se inicia a votação, e por fim o programa imprime o vencedor(a).
+**Objetivo:** Programa que executa uma eleição de pluralidade, conforme a seguir. Chamando o arquivo e digitando o nome dos candidatos, logo em seguida digitando o número de eleitores, assim se inicia a votação, e por fim o programa imprime o vencedor(a).
 
 ```
 
@@ -13,7 +13,7 @@ Voto: Alice
 Alice
 
 ```
-** Desenvolvimento: **
+**Desenvolvimento:**
 
  * A linha #define MAX 9 é alguma sintaxe usada aqui para significar que MAX é uma constante (igual a 9) que pode ser usada em todo o programa. Aqui, ele representa o número máximo de candidatos que uma eleição pode ter.
 
