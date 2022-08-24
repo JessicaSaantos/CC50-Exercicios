@@ -41,3 +41,11 @@ As implementações de runoff.c que forão completadas para o exercício: as fun
 	- Se a preferência for registrada com sucesso, a função retorna true ; caso contrário, a função deve retorna false (se, por exemplo, nome não for o nome de um dos candidatos).
 	- A variável do tipo inteiro candidate_count armazena o número de candidatos na eleição.
 	- E preferences [i] [j] armazenam o índice do candidato que é a j ésima preferência classificada para o i ésimo eleitor.
+
+* tabulate
+	- A função atualiza o número de votes que cada candidato possui nesta fase do segundo turno.
+	- Lembrando que em cada estágio do segundo turno, cada eleitor vota efetivamente em seu candidato preferido que ainda não foi eliminado.
+	- Cada voter_count armazena o número de eleitores na eleição.
+	- Lembrando que, para um eleitor i , seu candidato de primeira escolha é representado por preferences [i][0] , seu candidato de segunda escolha por preferences [i][1] , etc.
+	- A estrutura do candidato possui um campo denominado eliminado , o que será true caso o candidato tenha sido eliminado da eleição.
+	- A struct do candidate tem um campo chamado votes , que você provavelmente desejará atualizar para o candidato preferido de cada eleitor.
