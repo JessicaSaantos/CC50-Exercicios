@@ -16,7 +16,7 @@ Um BMP de 24 bits usa 8 bits para significar a quantidade de vermelho na cor de 
 
 Se os valores R, G e B de algum pixel em um BMP são, digamos, 0xff , 0x00 e 0x00 em hexadecimal, esse pixel é puramente vermelho, pois 0xff (também conhecido como 255 em decimal) implica "muito vermelho , ”Enquanto 0x00 e 0x00 implicam“ sem verde ”e“ sem azul ”, respectivamente.
 
-* Escala de cinza *
+**Escala de cinza**
 
 Um filtro comum é o filtro “escala de cinza”, onde pegamos uma imagem e queremos convertê-la em preto e branco. Como isso funciona?
 
@@ -30,7 +30,7 @@ Se você aplicar isso a cada pixel da imagem, o resultado será uma imagem conve
 
 ![escaladecinza](https://user-images.githubusercontent.com/98659450/192410143-88bee991-a0d2-4de5-a7b1-64648a6d6949.png)
 
-* Sépia *
+**Sépia**
 
 A maioria dos programas de edição de imagem oferece suporte a um filtro “sépia”, que dá às imagens uma aparência antiga, fazendo com que toda a imagem pareça um pouco marrom-avermelhada.
 
@@ -46,7 +46,7 @@ Obviamente, o resultado de cada uma dessas fórmulas pode não ser um número in
 
 ![sepia](https://user-images.githubusercontent.com/98659450/192410596-4da2e4fa-cc81-40c9-92bb-743c1880b2f9.png)
 
-* Reflexo *
+**Reflexo**
 
 Alguns filtros também podem mover pixels. Refletir uma imagem, por exemplo, é um filtro em que a imagem resultante é o que você obteria colocando a imagem original na frente de um espelho. Portanto, quaisquer pixels no lado esquerdo da imagem devem terminar no lado direito e vice-versa.
 
@@ -54,7 +54,7 @@ Observe que todos os pixels originais da imagem original ainda estarão presente
 
 ![reflexo](https://user-images.githubusercontent.com/98659450/192411204-7ce42bab-00c0-445c-8211-fa310891d2b4.png)
 
-* Blur *
+**Blur**
 
 Existem várias maneiras de criar o efeito de desfocar ou suavizar uma imagem. Para este problema, usaremos o “box blur”, que funciona pegando cada pixel e, para cada valor de cor, dando a ele um novo valor calculando a média dos valores de cor dos pixels vizinhos.
 
