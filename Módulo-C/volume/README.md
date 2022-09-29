@@ -2,6 +2,7 @@
 
 ## Objetivo:
  Programa desenvolvido para modificar o volume de um arquivo de áudio.
+
 		$ ./volume input.wav output.wav 2.0
 
 ## Compreensão:
