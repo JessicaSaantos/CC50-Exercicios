@@ -18,16 +18,21 @@ As probabilidades são de que, se você encontrar esse padrão de quatro bytes, 
 
  * O programa aceita exatamente um argumento de linha de comando, o nome de uma imagem forense da qual recuperar JPEGs.
 	
-	$ ./recover card.raw
+		$ ./recover card.raw
 
  * Se o programa não é executado com exatamente um argumento de linha de comando, ele lembra o usuário do uso correto e main retorna 1.
 
-	Usage: ./recover IMAGE
+		$ Usage: ./recover IMAGE
 
  * Quando a imagem forense não pode ser aberta para leitura, o programa informa isso ao usuário, e main retorna 1.
 
  * Cada um dos arquivos gerados são nomeado como ###.jpg , onde ### é um número decimal de três dígitos, começando com 000 para a primeira imagem e aumentando.
 
 ## Demonstração:
+
+![Animação](https://user-images.githubusercontent.com/98659450/192909172-4830bcba-ad75-4309-8b5a-735fb4f4ab11.gif)
+
+![recover](https://user-images.githubusercontent.com/98659450/192909615-c4e87693-2c28-48ab-84e3-335fa8f6c803.gif)
+
 
 
