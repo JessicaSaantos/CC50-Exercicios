@@ -10,7 +10,7 @@ JPEGs têm “assinaturas”, padrões de bytes que podem distingui-los de outro
 
 	0xff 0xd8 0xff
 
-do primeiro para o terceiro byte, da esquerda para a direita. O quarto byte, entretanto, é ** 0xe0 , 0xe1 , 0xe2 , 0xe3 , 0xe4 , 0xe5 , 0xe6 , 0xe7 , 0xe8 , 0xe9 , 0xea , 0xeb , 0xec , 0xed , 0xee ou 0xef ** . Dito de outra forma, os primeiros quatro bits do quarto byte são 1110 .
+do primeiro para o terceiro byte, da esquerda para a direita. O quarto byte, entretanto, é **0xe0 , 0xe1 , 0xe2 , 0xe3 , 0xe4 , 0xe5 , 0xe6 , 0xe7 , 0xe8 , 0xe9 , 0xea , 0xeb , 0xec , 0xed , 0xee ou 0xef** . Dito de outra forma, os primeiros quatro bits do quarto byte são 1110 .
 
 As probabilidades são de que, se você encontrar esse padrão de quatro bytes,  eles demarcam o início de um JPEG. Então o programa itera sobre uma cópia do cartão de memória, procurando assinaturas de JPEGs. Cada vez que encontrar uma assinatura, é possével abrir um novo arquivo para escrever e começar a preencher esse arquivo com bytes do cartão de memória, fechando esse arquivo apenas quando encontrar outra assinatura.
 
