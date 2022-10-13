@@ -2,6 +2,8 @@
 
 ## Objetivo:
 
+ Programa que executa simulações da Copa do Mundo da FIFA.
+
 	$ python tournament.py 2018m.csv
 	Belgium: 20.9% chance of winning
 	Brazil: 20.3% chance of winning
