@@ -4,7 +4,7 @@ Consultas SQL com objetivo de resolver um mistério.
 
 ## Descrição do problema: 
 
-** Um mistério em Fiftyville **
+**Um mistério em Fiftyville**
 
 O CS50 Duck(O pato de estimação) foi roubado! A cidade de Fiftyville convocou você para resolver o mistério do pato roubado. As autoridades acreditam que o ladrão roubou o pato e, pouco depois, voou para fora da cidade com a ajuda de um cúmplice. Seu objetivo é identificar:
 
